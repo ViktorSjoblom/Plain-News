@@ -6,27 +6,27 @@ $authors = [
     [   
         'firstName' => 'Melinda',
         'lastName' => 'Saphire',
-        'imgURL' => 'URL'
+        'imgURL' => 'authors/melinda.jpeg'
     ],
     [
         'firstName' => 'Hugh',
         'lastName' => 'Fliptop',
-        'imgURL' => 'URL'
+        'imgURL' => 'authors/hugh.jpeg'
     ],
     [
         'firstName' => 'Veronica',
         'lastName' => 'Himmelton',
-        'imgURL' => 'URL'
+        'imgURL' => 'authors/veronica.jpeg'
     ],
     [
         'firstName' => 'Samuel',
         'lastName' => 'Thorne',
-        'imgURL' => 'URL'
+        'imgURL' => 'authors/samuel.jpeg'
     ],
     [
         'firstName' => 'Milton',
         'lastName' => 'Grimstool',
-        'imgURL' => 'URL'
+        'imgURL' => 'authors/milton.jpeg'
     ],
 ];
 
