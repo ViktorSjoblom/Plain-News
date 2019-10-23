@@ -1,29 +1,48 @@
 @media screen and (max-width: 600px) {
 body {
-    background-color: green;
-}
+    background-color: white;
+    }
+
+div {
+    width: 200px;
+    height: 150px;
 }
 
-@media only screen and (min-width: 600px) {
-body {
-    background-color: black;
-}
+.flex-master {
+    display:flex;
+    background-color: gray;
+    border: solid black 3px;
+    justify-content: center;
+    align-items: center;
 }
 
-@media only screen and (min-width: 768px) {
+.flex-child {
+    align-items: center;
+    justify-content: center;
+}
+
+}
+
+ @media only screen and (min-width: 600px) {
 body {
     background-color: blue;
+    }
 }
+
+/* @media only screen and (min-width: 768px) {
+body {
+    background-color: blue;
+    }
 }
 
 @media only screen and (min-width: 992px) {
 body {
     background-color: yellow;
-}
+    }
 }
 
 @media only screen and (min-width: 1200px) {
 body {
     background-color: red;
-}
-}
+    }
+} */
