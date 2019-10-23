@@ -17,7 +17,7 @@ require __DIR__.'/functions.php';
 
     <div class="flex-master">
         <div class="flex-child">
-        <h3>Welcome to The Poolshaw Herald</h3>
+            <h3 class="header">The Poolshaw Herald</h3>
         </div>
     </div>
 
