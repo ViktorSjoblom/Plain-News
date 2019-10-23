@@ -1,5 +1,5 @@
 # Fake News Project
-<img src="https://media.giphy.com/media/QjrrSbYaqgi1q/giphy.gif" width="100%">
+<img src="https://media.giphy.com/media/QjrrSbYaqgi1q/giphy.gif" width="50%">
 
 
 ### Prerequisites
