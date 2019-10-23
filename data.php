@@ -3,30 +3,31 @@ declare(strict_types=1);
 
 
 $authors = [
-	['firstname' => 'Melinda',
-	'lastname' => 'Saphire',
-	'imgURL' => 'URL'
-],
-[
-	'firstname' => 'Hugh',
-	'lastname' => 'Fliptop',
-	'imgURL' => 'URL'
-],
-[
-	'firstname' => 'Veronica',
-	'lastname' => 'Himmelton',
-	'imgURL' => 'URL'
-],
-[
-	'firstname' => 'Samuel',
-	'lastname' => 'Thorne',
-	'imgURL' => 'URL'
-],
-[
-	'firstname' => 'Milton',
-	'lastname' => 'Grimstool',
-	'imgURL' => 'URL'
-],
+    [   
+        'firstname' => 'Melinda',
+        'lastname' => 'Saphire',
+        'imgURL' => 'URL'
+    ],
+    [
+        'firstname' => 'Hugh',
+        'lastname' => 'Fliptop',
+        'imgURL' => 'URL'
+    ],
+    [
+        'firstname' => 'Veronica',
+        'lastname' => 'Himmelton',
+        'imgURL' => 'URL'
+    ],
+    [
+        'firstname' => 'Samuel',
+        'lastname' => 'Thorne',
+        'imgURL' => 'URL'
+    ],
+    [
+        'firstname' => 'Milton',
+        'lastname' => 'Grimstool',
+        'imgURL' => 'URL'
+    ],
 ];
 
 
