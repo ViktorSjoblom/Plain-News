@@ -4,13 +4,12 @@
 
 ### Prerequisites
 
-You need a server software
-for example MAMP
+You need a server software, for example MAMP
 
 ### Installing
 
-Clone or Fork the repository
-Open index.php in your local server, ex localhost:8888
+Clone the repository
+ Open index.php in your local server, for example localhost:8000
 
 ## Built With
 
@@ -18,10 +17,9 @@ Open index.php in your local server, ex localhost:8888
 * HTML
 * CSS
 
-
 ## Authors
 
-* **Viktor Sjöblom** - *Initial work*
+* **Viktor Sjöblom**
 
 ## Testers
 * 
