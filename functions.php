@@ -1,7 +1,18 @@
 <?php
 declare(strict_types=1);
+/**
+ * Sort articles by date
+ *
+ * @param array $a
+ * @param array $b
+ *
+ * @return int
+ */
 
+function sortArticle(array $a, array $b): int {
+    $date1 = strtotime($a['publishDate']);
+    $date2 = strtotime($b['publishDate']);
+    return $date2 - $date1;
+}
 
-
-// This is the file where you can keep all your functions. Remember to NOT
-// execute/run any functions in this file. Keep it dumb.
+usort($articles,'sortArticle');
