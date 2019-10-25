@@ -1,125 +1,124 @@
 <?php
 declare(strict_types=1);
 
-
 $authors = [
     [   
-        'firstName' => 'Melinda',
-        'lastName' => 'Saphire',
-        'imgURL' => 'authors/melinda.jpeg'
+        'fullName' => 'Melinda Saphire',
+		'imgURL' => 'authors/melinda.jpeg',
+		'authorId' => '1'
     ],
     [
-        'firstName' => 'Hugh',
-        'lastName' => 'Fliptop',
-        'imgURL' => 'authors/hugh.jpeg'
+        'fullName' => 'Hugh Fliptop',
+		'imgURL' => 'authors/hugh.jpeg',
+		'authorId' => '2'
     ],
     [
-        'firstName' => 'Veronica',
-        'lastName' => 'Himmelton',
-        'imgURL' => 'authors/veronica.jpeg'
+        'fullName' => 'Veronica Himmelton',
+		'imgURL' => 'authors/veronica.jpeg',
+		'authorId' => '3'
     ],
     [
-        'firstName' => 'Samuel',
-        'lastName' => 'Thorne',
-        'imgURL' => 'authors/samuel.jpeg'
+        'fullName' => 'Samuel Thorne',
+		'imgURL' => 'authors/samuel.jpeg',
+		'authorId' => '4'
     ],
     [
-        'firstName' => 'Milton',
-        'lastName' => 'Grimstool',
-        'imgURL' => 'authors/milton.jpeg'
+        'fullName' => 'Milton Grimstool',
+		'imgURL' => 'authors/milton.jpeg',
+		'auhtorId' => '5'
     ],
 ];
 
-
 $articles = [
 	[
-		'title' => 'Article 1',
-		'author' => 'Melinda Saphire',
+		'title' => 'Alert!',
+		'author' => $authors[0]['fullName'],
 		'content' => file_get_contents(__DIR__.'/articles/article1.txt'),
-		'publishDate' => '2019-10-17',
+		'publishDate' => '2019-10-27',
 		'likeCounter' => 6,
-		'contentIMG' => '<URL ADRESS>',
+		'contentIMG' => ('articles/picture1.jpeg'),
 		'articleID' => 1
 	],
 	[
-		'title' => 'Article 2',
-		'author' => 'Melinda Saphire',
+		'title' => 'Important!',
+		'author' => $authors[0]['fullName'],
 		'content' => file_get_contents(__DIR__.'/articles/article2.txt'),
-		'publishDate' => '2019-10-18',
-		'likeCounter' => 10,
-		'contentIMG' => '<URL ADRESS>',
+		'publishDate' => '2019-11-04',
+		'likeCounter' => 23,
+		'contentIMG' => ('/articles/picture2.jpeg'),
 		'articleID' => 2
 	],
 	[
-		'title' => 'Article 3',
-		'author' => 'Hugh Fliptop',
+		'title' => 'Read here!',
+		'author' => $authors[1]['fullName'],
 		'content' => file_get_contents(__DIR__.'/articles/article3.txt'),
-		'publishDate' => '2019-10-19',
-		'likeCounter' => 24,
-		'contentIMG' => '<URL ADRESS>',
+		'publishDate' => '2019-10-14',
+		'likeCounter' => 74,
+		'contentIMG' => ('/articles/picture3.jpeg'),
 		'articleID' => 3
 	],
 	[
-		'title' => 'Article 4',
-		'author' => 'Hugh Fliptop',
+		'title' => 'Must see!',
+		'author' => $authors[1]['fullName'],
 		'content' => file_get_contents(__DIR__.'/articles/article4.txt'),
-		'publishDate' => '2019-10-20',
-		'likeCounter' => 16,
-		'contentIMG' => '<URL ADRESS>',
+		'publishDate' => '2019-10-29',
+		'likeCounter' => 56,
+		'contentIMG' => ('/articles/picture4.jpeg'),
 		'articleID' => 4
 	],
 	[
-		'title' => 'Article 5',
-		'author' => 'Veronica Himmelton',
+		'title' => 'Attention!',
+		'author' => $authors[2]['fullName'],
 		'content' => file_get_contents(__DIR__.'/articles/article5.txt'),
-		'publishDate' => '2019-10-21',
-		'likeCounter' => 2,
-		'contentIMG' => '<URL ADRESS>',
+		'publishDate' => '2019-11-11',
+		'likeCounter' => 12,
+		'contentIMG' => ('/articles/picture5.jpeg'),
 		'articleID' => 5
 	],
 	[
-		'title' => 'Article 6',
-		'author' => 'Veronica Himmelton',
+		'title' => 'Over here!',
+		'author' => $authors[2]['fullName'],
 		'content' => file_get_contents(__DIR__.'/articles/article6.txt'),
-		'publishDate' => '2019-10-22',
-		'likeCounter' => 9,
-		'contentIMG' => '<URL ADRESS>',
+		'publishDate' => '2019-12-20',
+		'likeCounter' => 2,
+		'contentIMG' => ('/articles/picture6.jpeg'),
 		'articleID' => 6
 	],
 	[
-		'title' => 'Article 7',
-		'author' => 'Samuel Thorne',
+		'title' => 'Alarm!',
+		'author' => $authors[3]['fullName'],
 		'content' => file_get_contents(__DIR__.'/articles/article7.txt'),
-		'publishDate' => '2019-10-22',
-		'likeCounter' => 9,
-		'contentIMG' => '<URL ADRESS>',
+		'publishDate' => '2019-10-09',
+		'likeCounter' => 14,
+		'contentIMG' => ('/articles/picture7.jpeg'),
 		'articleID' => 7
 	],
 	[
-		'title' => 'Article 8',
-		'author' => 'Samuel Thorne',
+		'title' => 'Oy!',
+		'author' => $authors[3]['fullName'],
 		'content' => file_get_contents(__DIR__.'/articles/article8.txt'),
-		'publishDate' => '2019-10-23',
-		'likeCounter' => 14,
-		'contentIMG' => '<URL ADRESS>',
+		'publishDate' => '2019-11-16',
+		'likeCounter' => 26,
+		'contentIMG' => ('/articles/picture8.jpeg'),
 		'articleID' => 8
 	],
 	[
-		'title' => 'Article 9',
-		'author' => 'Milton Grimstool',
+		'title' => 'Look!',
+		'author' => $authors[4]['fullName'],
 		'content' => file_get_contents(__DIR__.'/articles/article9.txt'),
-		'publishDate' => '2019-10-24',
-		'likeCounter' => 49,
-		'contentIMG' => '<URL ADRESS>',
+		'publishDate' => '2019-10-19',
+		'likeCounter' => 29,
+		'contentIMG' => ('/articles/picture9.jpeg'),
 		'articleID' => 9
 	],
 	[
-		'title' => 'Article 10',
-		'author' => 'Milton Grimstool',
+		'title' => 'Davai davai!',
+		'author' => $authors[4]['fullName'],
 		'content' => file_get_contents(__DIR__.'/articles/article10.txt'),
-		'publishDate' => '2019-10-25',
-		'likeCounter' => 53,
-		'contentIMG' => '<URL ADRESS>',
+		'publishDate' => '2019-11-02',
+		'likeCounter' => 10,
+		'contentIMG' => ('/articles/picture10.jpeg'),
 		'articleID' => 10
 	],
+	
 ];
