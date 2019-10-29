@@ -21,23 +21,23 @@ require __DIR__.'/functions.php';
          <h3 class="header">The Poolshaw Herald</h3>
     </div>
 
-    <div class="flex-navbar">
+    <div id="flex-navbar">
 <div class="topnav">
-  <a class="active" href="header.php">Home</a>
+  <a href="header.php">Home</a>
   <a class="navBarItem1" href="authors.php">Authors</a>
   <a class="navBarItem2" href="articles.php">Articles</a>
 </div>
 </div>
-    
+
+
+<div class="authors-container">
 <?php foreach ($authors as $author): ?>
 
-    <div class="flex-article">
-        <article class="article">
-            <div class="flex-article2">
-                <img class="articleimage" loading="lazy" src="<?php echo $author['imgURL'] ?>">
-            </div>
-            <p><?php echo $author['fullName'] ?></p>
-        </article>
-    </div>
-        
+        <div class="authors-specific">
+            <p class ="authors"><?php echo $author['fullName'] ?></p>
+            <img class="authors-images" loading="lazy" src="<?php echo $author['imgURL'] ?>">
+        </div>
 <?php endforeach; ?>
+ </div>
+
+<?php require __DIR__."/footer.php";
