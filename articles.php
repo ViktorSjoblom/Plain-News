@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 require __DIR__."/data.php";
 require __DIR__."/functions.php";
+
 ?>
 
 <!DOCTYPE html>
@@ -23,32 +24,26 @@ require __DIR__."/functions.php";
 
     <div class="flex-navbar">
 <div class="topnav">
-  <a class="navBarItem0" href="header.php">Home</a>
-  <a class="navBarItem1"  href="authors.php">Authors</a>
+  <a href="header.php">Home</a>
+  <a class="navBarItem1" href="authors.php">Authors</a>
   <a class="navBarItem2" href="articles.php">Articles</a>
 </div>
 </div>
-
     
     
 <?php usort($articles, "sortArticle"); ?>
-
+<div class="articles-container">
 <?php foreach ($articles as $article): ?>
 
-    <div class="flex-article">
-        <article class="article">
-            <div class="flex-article2">
-                <img class="articleimage" loading="lazy" src="<?php echo $article["contentIMG"] ?>">
-            </div>
-            <h2><?php echo $article["title"] ?></h2>
-            <p><?php echo $article["content"] ?></p>
-            <p>Published: <?php echo $article["publishDate"] ?></p>
-            <p>Author: <?php echo $article["author"] ?></p>
-            <p>Likes: <?php echo $article["likeCounter"] ?></p>
-        </article>
+    
+<div class="container-style" href="<?php echo $article["content"] ?>">
+        <img class="images-style" loading="lazy" src="<?php echo $article["contentIMG"] ?>">
+        <h2 class ="articles-style"><?php echo $article["title"] ?></h2>
+</div>
+<?php endforeach; ?>
     </div>
         
 
-<?php endforeach; ?>
+
 
 <?php require __DIR__."/footer.php";
