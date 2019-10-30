@@ -1,5 +1,5 @@
 # Plain News
-<img src="https://media.giphy.com/media/QjrrSbYaqgi1q/giphy.gif" width="75%">
+<img src="https://media.giphy.com/media/QjrrSbYaqgi1q/giphy.gif" width="100%">
 
 
 ### Prerequisites
