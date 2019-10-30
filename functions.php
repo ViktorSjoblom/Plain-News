@@ -1,5 +1,6 @@
 <?php
 declare(strict_types=1);
+
 /**
  * Sort articles by date
  *
@@ -16,3 +17,21 @@ function sortArticle(array $a, array $b): int {
 }
 
 usort($articles,'sortArticle');
+
+
+/**
+* Gets the specific article from its ID
+*
+* @param  array $articles
+* @param  int $articleID
+*
+* @return array
+*/
+
+function articleGet(array $articles, int $articleID):array {
+    foreach ($articles as $article) {
+        if($article['articleID'] === $articleID){
+            return $article;
+        }
+    }
+}

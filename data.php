@@ -112,7 +112,7 @@ $articles = [
 		'articleID' => 9
 	],
 	[
-		'title' => 'Davai davai!',
+		'title' => 'Listen here!',
 		'author' => $authors[4]['fullName'],
 		'content' => file_get_contents(__DIR__.'/articles/article10.txt'),
 		'publishDate' => '2019-11-02',

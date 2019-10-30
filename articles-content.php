@@ -1,8 +1,14 @@
-<?php require __DIR__.'/header.php'; ?>
+<?php
 
-<?php usort($articles, "sortArticle"); ?>
+require __DIR__."/header.php";
 
-<?php foreach ($articles as $article): ?>
+if (isset($_GET["id"])){
+
+    $article = articleGet($articles, $_GET["id"]);
+}
+$date = $article["publishDate"];
+
+?>
 
     <div class="flex-article">
         <article class="article">
@@ -16,8 +22,3 @@
             <p>Likes: <?php echo $article["likeCounter"] ?></p>
         </article>
     </div>
-        
-<?php endforeach; ?>
-
-
-<?php require __DIR__.'/footer.php'; ?>
