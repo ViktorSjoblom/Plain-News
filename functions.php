@@ -21,10 +21,13 @@ usort($articles,'sortArticle');
 
 /**
 * Gets the specific article from its ID
+*
 * @param  array $articles
 * @param  int $articleID
+*
 * @return array
 */
+
 function articleGet(array $articles, int $articleID):array {
     foreach ($articles as $article) {
         if($article['articleID'] === $articleID){
