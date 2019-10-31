@@ -22,9 +22,9 @@ require __DIR__."/functions.php";
 
     <div class="flex-navbar">
         <div class="topnav">
-            <a class="navBarItem0" href="index.php">Home</a>
-            <a class="navBarItem1"  href="authors.php">Authors</a>
-            <a class="navBarItem2" href="articles.php">Articles</a>
+            <a class="nav-bar-item-0" href="index.php">Home</a>
+            <a class="nav-bar-item-1"  href="authors.php">Authors</a>
+            <a class="nav-bar-item-2" href="articles.php">Articles</a>
         </div>
     </div>
 

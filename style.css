@@ -110,7 +110,7 @@ p.authors {
     padding-bottom: 2%;
 }
 
-.articleimage {
+.article-image {
     width: 100%;
     border: solid black 3px;
 }
@@ -132,11 +132,11 @@ p.authors {
     font-size: 10px;
 }
 
-.navBarItem1:nth-child(2) {
+.nav-bar-item-1:nth-child(2) {
     float: right;
 }
 
-.navBarItem2:nth-child(3) {
+.nav-bar-item-2:nth-child(3) {
     float: right;
 }
 
@@ -269,7 +269,7 @@ p.authors {
     padding-bottom: 2%;
 }
 
-.articleimage {
+.article-image {
     width: 100%;
     border: solid black 3px;
 }
@@ -282,11 +282,11 @@ p.authors {
     overflow: hidden;
 }
 
-.navBarItem1:nth-child(2) {
+.nav-bar-item-1:nth-child(2) {
     float: right;
 }
 
-.navBarItem2:nth-child(3) {
+.nav-bar-item-2:nth-child(3) {
     float: right;
 }
 
@@ -424,7 +424,7 @@ p.authors {
     padding-bottom: 2%;
 }
 
-.articleimage {
+.article-image {
     width: 100%;
     border: solid black 4px;
 }
@@ -442,11 +442,11 @@ p.authors {
     overflow: hidden;
 }
 
-.navBarItem1:nth-child(2) {
+.nav-bar-item-1:nth-child(2) {
     float: right;
 }
 
-.navBarItem2:nth-child(3) {
+.nav-bar-item-2:nth-child(3) {
     float: right;
 }
 
@@ -584,7 +584,7 @@ p.authors {
     padding-bottom: 2%;
 }
 
-.articleimage {
+.article-image {
     width: 100%;
     border: solid black 5px;
 }
@@ -602,11 +602,11 @@ p.authors {
     overflow: hidden;
 }
 
-.navBarItem1:nth-child(2) {
+.nav-bar-item-1:nth-child(2) {
     float: right;
 }
 
-.navBarItem2:nth-child(3) {
+.nav-bar-item-2:nth-child(3) {
     float: right;
 }
 
@@ -749,7 +749,7 @@ p.authors {
     padding-bottom: 2%;
 }
 
-.articleimage {
+.article-image {
     width: 100%;
     border: solid black 6px;
 }
@@ -767,15 +767,15 @@ p.authors {
     overflow: hidden;
 }
 
-.navBarItem0:nth-child(1) {
+.nav-bar-item-0:nth-child(1) {
     float: left;
 }
 
-.navBarItem1:nth-child(2) {
+.nav-bar-item-1:nth-child(2) {
     float: right;
 }
 
-.navBarItem2:nth-child(3) {
+.nav-bar-item-2:nth-child(3) {
     float: right;
 }
 

@@ -7,7 +7,7 @@
     <div class="flex-article">
         <article class="article">
             <div class="flex-article2">
-                <img class="articleimage" loading="lazy" src="<?php echo $article["contentIMG"] ?>">
+                <img class="article-image" loading="lazy" src="<?php echo $article["contentIMG"] ?>">
             </div>
             <h2><?php echo $article["title"] ?></h2>
             <p><?php echo $article["content"] ?></p>
