@@ -2,8 +2,7 @@
 
 require __DIR__."/header.php";
 
-if (isset($_GET["id"])){
-
+if (isset($_GET["id"])) {
     $article = articleGet($articles, $_GET["id"]);
 }
 $date = $article["publishDate"];

@@ -10,13 +10,14 @@ declare(strict_types=1);
  * @return int
  */
 
-function sortArticle(array $a, array $b): int {
+function sortArticle(array $a, array $b): int
+{
     $date1 = strtotime($a['publishDate']);
     $date2 = strtotime($b['publishDate']);
     return $date2 - $date1;
 }
 
-usort($articles,'sortArticle');
+usort($articles, 'sortArticle');
 
 
 /**
@@ -28,9 +29,10 @@ usort($articles,'sortArticle');
 * @return array
 */
 
-function articleGet(array $articles, int $articleID):array {
+function articleGet(array $articles, int $articleID):array
+{
     foreach ($articles as $article) {
-        if($article['articleID'] === $articleID){
+        if ($article['articleID'] === $articleID) {
             return $article;
         }
     }
