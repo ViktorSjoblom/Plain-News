@@ -1,3 +1,5 @@
+[![StyleCI](https://github.styleci.io/repos/217001427/shield?branch=master)](https://github.styleci.io/repos/217001427)
+
 # Plain News
 <img src="https://media.giphy.com/media/QjrrSbYaqgi1q/giphy.gif" width="75%">
 
